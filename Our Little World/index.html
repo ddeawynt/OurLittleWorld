@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A little digital space for our story. Dea & Haidar." />
+  <title>Our Story | Dea & Haidar</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <!-- Dark Mode Toggle -->
+  <button id="toggle-dark" title="Toggle Dark Mode">🌙</button>
+
+  <div class="content">
+    <h1>Our Story</h1>
+    <div class="title-underline"></div>
+
+    <!-- Love Letter Section -->
+    <p class="fade-in-section">
+      This page isn't fancy. It isn't perfect either. It's just us. A quiet space that holds little pieces of our hearts. The ones we don't always speak out loud. We're writing this slowly and honestly, the way we live our days now.
+    </p>
+    <p class="fade-in-section">
+      We didn't plan to meet. But something in the world made sure we crossed paths. Since then, even the simplest things began to feel different. More gentle. More real. You became the calm in my chaos. You felt like home without asking to be.
+    </p>
+    <p class="fade-in-section">
+      We talk about everything and nothing. We laugh until our cheeks hurt. We fall quiet and stay in the same space, sharing a silence that feels full instead of empty. i think that says a lot about love. That it does not always need words.
+    </p>
+    <p class="fade-in-section">
+      You notice the small things. The way i take my tea. The songs i skip. The way i look when i am trying not to cry. And somehow, you never turn away. You stay. You listen. You understand even the things i do not know how to say.
+    </p>
+    <p class="fade-in-section">
+      There is something soft about the way you hold me. Not just with your arms, but with your presence. With your patience. With the way you see me when i feel invisible. With the way you remind me that i am never too much and never not enough.
+    </p>
+    <p class="fade-in-section">
+      This page is ours. No need to impress anyone. It's here to remind us of what we have built. Something soft. Something strong. Something we return to when the world outside feels too cold. A small place that remembers who we are when we forget.
+    </p>
+    <p class="fade-in-section">
+      And on the days when things feel heavy, i hope we come back here. To these words. To this quiet little space. To each other. i hope we remember that it is okay to take time. To breathe. To fall apart and come back again. Together.
+    </p>
+    <p class="fade-in-section">
+      So if you're reading this, Haidar, i hope it makes you smile. Because this is our story. All of it. The quiet, the silly, the gentle, the real. The way you say my name. The way we find comfort in the same songs. The way we always find our way back.
+    </p>
+    <p class="fade-in-section">
+      And if i'm reading this too, then i know we kept choosing each other. Not just once. But again and again. In tiny moments. In soft glances. In late-night talks and early-morning yawns. In love that is not always loud but always present.
+    </p>
+    <p class="fade-in-section">
+      This is us. Imperfect. Honest. Beautiful in the ways that matter. And i would not trade it for anything.
+    </p>
+
+<!-- RANDOM QUOTE (sendiri, di luar mood box) -->
+<div class="quote-random-box fade-in-section">
+<button id="quoteBtn" class="mood-btn">💬 random</button>
+  <p id="quoteDisplay" class="quote-text"></p>
+</div>
+
+<!-- MOOD QUOTE (dalam kotak sendiri) -->
+<div class="quote-box quote-section fade-in-section">
+  <p class="mood-title">how do you feel today?</p>
+  <div class="mood-buttons">
+    <button class="mood-btn" data-mood="anxious">anxious</button>
+    <button class="mood-btn" data-mood="calm">calm</button>
+    <button class="mood-btn" data-mood="grateful">grateful</button>
+    <button class="mood-btn" data-mood="lonely">lonely</button>
+    <button class="mood-btn" data-mood="hopeful">hopeful</button>
+    <button class="mood-btn" data-mood="overwhelmed">overwhelmed</button>
+    <button class="mood-btn" data-mood="nostalgic">nostalgic</button>
+    <button class="mood-btn" data-mood="joyful">joyful</button>
+    <button class="mood-btn" data-mood="discouraged">discouraged</button>
+    <button class="mood-btn" data-mood="reflective">reflective</button>
+  </div>
+<p id="quoteDisplayMood" class="quote-text fade-quote"></p>
+</div>
+
+
+    <!-- Closing Section -->
+    <div class="fade-in-section closing-section">
+      <h2 class="closing-title">Dea & Haidar</h2>
+      <p class="closing-tagline">this is something we built. let's keep building.</p>
+    </div>
+
+    <!-- Gallery -->
+    <div class="gallery fade-in-section">
+      <div class="polaroid"><img src="gallery1.jpg" alt="Memory 1"><p>Memory 1</p></div>
+      <div class="polaroid"><img src="gallery2.jpg" alt="Memory 2"><p>Memory 2</p></div>
+      <div class="polaroid"><img src="gallery3.jpg" alt="Memory 3"><p>Memory 3</p></div>
+      <div class="polaroid"><img src="gallery4.jpg" alt="Memory 4"><p>Memory 4</p></div>
+      <div class="polaroid"><img src="gallery5.jpg" alt="Memory 5"><p>Memory 5</p></div>
+      <div class="polaroid"><img src="gallery6.jpg" alt="Memory 6"><p>Memory 6</p></div>
+    </div>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <img id="modalImage" />
+      </div>
+    </div>
+
+    <!-- Next Page -->
+    <a href="page2.html" class="next-page-button">Read Haidar's Letter →</a>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <hr />
+      <p>&copy; 2025 Dea Dwi Aryanti. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
